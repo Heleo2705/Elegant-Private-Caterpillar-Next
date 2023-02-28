@@ -2,7 +2,6 @@ import React from 'react'
 import Head from 'next/head'
 
 import NavigationLinks1 from '../components/navigation-links1'
-import TestimonialCard1 from '../components/testimonial-card1'
 import FeatureCard from '../components/feature-card'
 import Testimonial from '../components/testimonial'
 
@@ -14,8 +13,8 @@ const Try2 = (props) => {
           <title>Elegant Private Caterpillar</title>
           <meta property="og:title" content="Elegant Private Caterpillar" />
         </Head>
-        <div className="try2-hero">
-          <header data-role="Header" className="try2-header">
+        <div className="try2-header">
+          <header data-role="Header" className="try2-header1">
             <div className="try2-titlebar">
               <div className="try2-home">
                 <span className="try2-text">
@@ -114,7 +113,7 @@ const Try2 = (props) => {
             </span>
           </span>
         </div>
-        <div className="try2-banner">
+        <div className="try2-about-us">
           <div className="try2-container03">
             <span className="try2-text13">
               <span>01 . About us</span>
@@ -179,7 +178,7 @@ const Try2 = (props) => {
             />
           </div>
         </div>
-        <div className="try2-testimonial">
+        <div className="try2-features">
           <div className="try2-container05">
             <span className="try2-text29">
               <span>02 . Services</span>
@@ -187,28 +186,7 @@ const Try2 = (props) => {
             <span className="try2-text31">
               <span>Our services to help you sdjf snjfn fnvdvnk sdnfjvnk</span>
             </span>
-            <h1 className="try2-text33">
-              <span>What they’re saying</span>
-              <br></br>
-              <span></span>
-            </h1>
-            <span className="try2-text36">
-              <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
-                volutpat turpis. Mauris luctus rutrum mi ut rhoncus. Integer in
-                dignissim tortor.
-              </span>
-            </span>
             <div className="try2-container06">
-              <TestimonialCard1
-                picture_src="https://images.unsplash.com/photo-1557053910-d9eadeed1c58?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHdvbWFuJTIwcG9ydHJhaXR8ZW58MHx8fHwxNjI2NDUxOTgy&amp;ixlib=rb-1.2.1&amp;h=1200"
-                rootClassName="rootClassName2"
-              ></TestimonialCard1>
-              <TestimonialCard1 rootClassName="rootClassName"></TestimonialCard1>
-              <TestimonialCard1
-                picture_src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHdvbWFuJTIwcG9ydHJhaXR8ZW58MHx8fHwxNjI2NDUxOTgy&amp;ixlib=rb-1.2.1&amp;h=1200"
-                rootClassName="rootClassName1"
-              ></TestimonialCard1>
               <FeatureCard
                 text="FTK Based Water Testing"
                 image_src="/playground_assets/image137915-105n-300h.png"
@@ -231,10 +209,8 @@ const Try2 = (props) => {
           </div>
         </div>
         <div className="try2-container07">
-          <span className="try2-text38">03 . Our Team</span>
+          <span className="try2-text33">03 . Our Team</span>
           <Testimonial rootClassName="testimonial-root-class-name2"></Testimonial>
-          <Testimonial rootClassName="testimonial-root-class-name"></Testimonial>
-          <Testimonial rootClassName="testimonial-root-class-name1"></Testimonial>
         </div>
         <footer className="try2-footer">
           <div className="try2-container08">
@@ -248,21 +224,21 @@ const Try2 = (props) => {
             <div className="try2-links-container">
               <div className="try2-container09">
                 <div className="try2-company-container">
-                  <span className="try2-text39">Home</span>
-                  <span className="try2-text40">Services</span>
-                  <span className="try2-text41">Careers</span>
-                  <span className="try2-text42">Contact</span>
+                  <span className="try2-text34">Home</span>
+                  <span className="try2-text35">Services</span>
+                  <span className="try2-text36">Careers</span>
+                  <span className="try2-text37">Contact</span>
                   <span>Blog</span>
                 </div>
               </div>
               <div className="try2-container10">
                 <div className="try2-contact">
-                  <span className="try2-text44">Contact Us</span>
-                  <span className="try2-text45">hello@teleporthq.io</span>
+                  <span className="try2-text39">Contact Us</span>
+                  <span className="try2-text40">hello@teleporthq.io</span>
                   <span>+123 (4567) 890</span>
                 </div>
                 <div className="try2-socials">
-                  <span className="try2-text47">Follow Us</span>
+                  <span className="try2-text42">Follow Us</span>
                   <div className="try2-icon-group1">
                     <svg
                       viewBox="0 0 950.8571428571428 1024"
@@ -288,9 +264,9 @@ const Try2 = (props) => {
             </div>
           </div>
           <div className="try2-separator"></div>
-          <span className="try2-text48">
+          <span className="try2-text43">
             <span>© 2021 teleportHQ, All Rights Reserved.</span>
-            <span className="try2-text50"></span>
+            <span className="try2-text45"></span>
             <span></span>
           </span>
         </footer>
@@ -306,7 +282,7 @@ const Try2 = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .try2-hero {
+          .try2-header {
             width: var(--dl-size-size-maxwidth);
             display: flex;
             min-height: 80vh;
@@ -321,7 +297,7 @@ const Try2 = (props) => {
             background-image: url('/playground_assets/image%201-1500h.png');
             background-position: center;
           }
-          .try2-header {
+          .try2-header1 {
             width: 100%;
             display: flex;
             max-width: var(--dl-size-size-maxwidth);
@@ -584,7 +560,7 @@ const Try2 = (props) => {
             margin-bottom: 0;
             text-decoration: none;
           }
-          .try2-banner {
+          .try2-about-us {
             width: 100%;
             display: flex;
             max-width: var(--dl-size-size-maxwidth);
@@ -709,7 +685,7 @@ const Try2 = (props) => {
             position: relative;
             border-color: transparent;
           }
-          .try2-testimonial {
+          .try2-features {
             flex: m;
             width: 100%;
             display: flex;
@@ -761,19 +737,6 @@ const Try2 = (props) => {
             margin-bottom: 0;
             text-decoration: none;
           }
-          .try2-text33 {
-            color: var(--dl-color-gray-white);
-            display: none;
-          }
-          .try2-text36 {
-            color: var(--dl-color-gray-white);
-            display: none;
-            font-size: 0.75rem;
-            max-width: 600px;
-            margin-top: var(--dl-space-space-unit);
-            text-align: center;
-            margin-bottom: var(--dl-space-space-twounits);
-          }
           .try2-container06 {
             width: 100%;
             display: grid;
@@ -795,7 +758,7 @@ const Try2 = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .try2-text38 {
+          .try2-text33 {
             color: rgb(182, 187, 188);
             width: 261px;
             height: auto;
@@ -860,16 +823,16 @@ const Try2 = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .try2-text39 {
+          .try2-text34 {
             margin-bottom: var(--dl-space-space-unit);
           }
-          .try2-text40 {
+          .try2-text35 {
             margin-bottom: var(--dl-space-space-unit);
           }
-          .try2-text41 {
+          .try2-text36 {
             margin-bottom: var(--dl-space-space-unit);
           }
-          .try2-text42 {
+          .try2-text37 {
             margin-bottom: var(--dl-space-space-unit);
           }
           .try2-container10 {
@@ -885,11 +848,11 @@ const Try2 = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .try2-text44 {
+          .try2-text39 {
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .try2-text45 {
+          .try2-text40 {
             margin-bottom: var(--dl-space-space-unit);
           }
           .try2-socials {
@@ -898,7 +861,7 @@ const Try2 = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .try2-text47 {
+          .try2-text42 {
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
@@ -929,10 +892,10 @@ const Try2 = (props) => {
             margin-bottom: var(--dl-space-space-twounits);
             background-color: var(--dl-color-gray-900);
           }
-          .try2-text48 {
+          .try2-text43 {
             align-self: center;
           }
-          .try2-text50 {
+          .try2-text45 {
             text-align: left;
           }
           @media (max-width: 991px) {
@@ -942,7 +905,7 @@ const Try2 = (props) => {
             .try2-icon {
               display: flex;
             }
-            .try2-banner {
+            .try2-about-us {
               flex-direction: column;
             }
             .try2-container03 {
@@ -961,12 +924,6 @@ const Try2 = (props) => {
               width: var(--dl-size-size-xxlarge);
               height: var(--dl-size-size-xxlarge);
             }
-            .try2-text33 {
-              text-align: center;
-            }
-            .try2-text36 {
-              text-align: center;
-            }
             .try2-container06 {
               grid-template-columns: 1fr;
             }
@@ -978,12 +935,12 @@ const Try2 = (props) => {
             }
           }
           @media (max-width: 767px) {
-            .try2-hero {
+            .try2-header {
               width: 100%;
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .try2-header {
+            .try2-header1 {
               display: none;
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
@@ -999,7 +956,7 @@ const Try2 = (props) => {
             .try2-text08 {
               align-self: center;
             }
-            .try2-banner {
+            .try2-about-us {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
@@ -1037,19 +994,19 @@ const Try2 = (props) => {
             }
           }
           @media (max-width: 479px) {
-            .try2-hero {
+            .try2-header {
               padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .try2-header {
+            .try2-header1 {
               padding: var(--dl-space-space-unit);
             }
             .try2-mobile-menu {
               padding: 16px;
             }
-            .try2-banner {
+            .try2-about-us {
               padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
@@ -1099,7 +1056,7 @@ const Try2 = (props) => {
               align-items: flex-start;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .try2-text48 {
+            .try2-text43 {
               text-align: center;
             }
           }

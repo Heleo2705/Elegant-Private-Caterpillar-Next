@@ -13,7 +13,7 @@ const Try2 = (props) => {
           <title>Elegant Private Caterpillar</title>
           <meta property="og:title" content="Elegant Private Caterpillar" />
         </Head>
-        <div className="try2-header">
+        <div id="home" className="try2-header">
           <header data-role="Header" className="try2-header1">
             <div className="try2-titlebar">
               <div className="try2-home">
@@ -22,19 +22,19 @@ const Try2 = (props) => {
                 </span>
               </div>
               <div className="try2-services">
-                <span className="try2-text02">
+                <a href="#features" className="try2-text02">
                   <span>Services</span>
-                </span>
+                </a>
               </div>
               <div className="try2-aboutus">
-                <span className="try2-text04">
+                <a href="#aboutUs" className="try2-text04">
                   <span>About Us</span>
-                </span>
+                </a>
               </div>
               <div className="try2-contactus">
-                <span className="try2-text06">
+                <a href="#contactUs" className="try2-text06">
                   <span>Contact Us</span>
-                </span>
+                </a>
               </div>
             </div>
             <div className="try2-container01">
@@ -113,7 +113,7 @@ const Try2 = (props) => {
             </span>
           </span>
         </div>
-        <div className="try2-about-us">
+        <div id="aboutUs" className="try2-about-us">
           <div className="try2-container03">
             <span className="try2-text13">
               <span>01 . About us</span>
@@ -168,9 +168,14 @@ const Try2 = (props) => {
           />
           <div className="try2-rectangle2">
             <span className="try2-text27">
-              <span>
-                ffdfbndf fbngneg fvsdvjngdnv svdsvubs vs skjvbfubvb scvvkvbfv gu
-              </span>
+              Enriching farming with on-field services involves providing
+              farmers with various services that help them improve their crop
+              yields, increase efficiency, and optimize their resources.
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
             </span>
             <img
               alt="image37933"
@@ -178,13 +183,13 @@ const Try2 = (props) => {
             />
           </div>
         </div>
-        <div className="try2-features">
+        <div id="features" className="try2-features">
           <div className="try2-container05">
-            <span className="try2-text29">
+            <span className="try2-text28">
               <span>02 . Services</span>
             </span>
-            <span className="try2-text31">
-              <span>Our services to help you sdjf snjfn fnvdvnk sdnfjvnk</span>
+            <span className="try2-text30">
+              Our services help you optimize both costs and harvests
             </span>
             <div className="try2-container06">
               <FeatureCard
@@ -209,36 +214,62 @@ const Try2 = (props) => {
           </div>
         </div>
         <div className="try2-container07">
-          <span className="try2-text33">03 . Our Team</span>
-          <Testimonial rootClassName="testimonial-root-class-name2"></Testimonial>
+          <span className="try2-text31">03 . Our Team</span>
+          <Testimonial
+            rootClassName="testimonial-root-class-name2"
+            Name="Krishn Dev Singh"
+            Title="Co-founder &amp; CEO"
+            text=" “MBA in HR &amp; Marketing and has 14+ years of diverse experience spanning Human Resource, Project Management, Business Process Management,Corporate Trainings, Executive Assistant  &amp; Startup Operations Management.“"
+            image_src="/playground_assets/kd%20singh-300h.png"
+          ></Testimonial>
+          <Testimonial
+            rootClassName="testimonial-root-class-name"
+            image_src="/playground_assets/nishaant-300h.png"
+            Name="Nishaant Veer Dixit"
+            text="“Tech enthusiast and mobile development expert. Previously headed the mobile development department at a Fintech.  B. Tech @ IIT Dhanbad 2021.  “"
+            Title="Co-founder &amp; CTO"
+          ></Testimonial>
+          <Testimonial
+            rootClassName="testimonial-root-class-name1"
+            image_src="/playground_assets/yashraj-300h.png"
+            Name="Yashraj Shah"
+            text="“B. Tech @ BITS Pilani, 2+ year experience in product management, consulting &amp; strategy. “"
+            Title="Co-founder &amp; CBO"
+          ></Testimonial>
         </div>
         <footer className="try2-footer">
-          <div className="try2-container08">
+          <div id="contactUs" className="try2-container08">
             <div className="try2-logo">
-              <img
-                alt="logo"
-                src="/playground_assets/whatsappimage20230203at21517916-7n89-400h.png"
-                className="try2-image3 try2-image3"
-              />
+              <a href="#home" className="try2-link">
+                <img
+                  alt="logo"
+                  src="/playground_assets/whatsappimage20230203at21517916-7n89-400h.png"
+                  className="try2-image3 try2-image3"
+                />
+              </a>
             </div>
             <div className="try2-links-container">
               <div className="try2-container09">
                 <div className="try2-company-container">
-                  <span className="try2-text34">Home</span>
-                  <span className="try2-text35">Services</span>
-                  <span className="try2-text36">Careers</span>
-                  <span className="try2-text37">Contact</span>
-                  <span>Blog</span>
+                  <a href="#home" className="try2-link1">
+                    Home
+                  </a>
+                  <a href="#features" className="try2-link2">
+                    Services
+                  </a>
+                  <span className="try2-text32">Careers</span>
+                  <span className="try2-text33">Contact</span>
+                  <span className="try2-text34">Blog</span>
                 </div>
               </div>
               <div className="try2-container10">
                 <div className="try2-contact">
-                  <span className="try2-text39">Contact Us</span>
-                  <span className="try2-text40">hello@teleporthq.io</span>
-                  <span>+123 (4567) 890</span>
+                  <span className="try2-text35">Contact Us</span>
+                  <span className="try2-text36">thefamersshop@gmail.com</span>
+                  <span>+91 70110 70404</span>
                 </div>
                 <div className="try2-socials">
-                  <span className="try2-text42">Follow Us</span>
+                  <span className="try2-text38">Follow Us</span>
                   <div className="try2-icon-group1">
                     <svg
                       viewBox="0 0 950.8571428571428 1024"
@@ -264,9 +295,9 @@ const Try2 = (props) => {
             </div>
           </div>
           <div className="try2-separator"></div>
-          <span className="try2-text43">
+          <span className="try2-text39">
             <span>© 2021 teleportHQ, All Rights Reserved.</span>
-            <span className="try2-text45"></span>
+            <span className="try2-text41"></span>
             <span></span>
           </span>
         </footer>
@@ -665,7 +696,7 @@ const Try2 = (props) => {
             background-color: #d9d9d9;
           }
           .try2-text27 {
-            color: rgba(0, 0, 0, 1);
+            color: rgb(0, 0, 0);
             width: 601px;
             height: auto;
             margin: var(--dl-space-space-fourunits);
@@ -705,7 +736,7 @@ const Try2 = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .try2-text29 {
+          .try2-text28 {
             color: rgba(182, 187, 188, 1);
             width: 191px;
             height: auto;
@@ -716,13 +747,14 @@ const Try2 = (props) => {
             font-family: DM Sans;
             font-weight: 700;
             line-height: normal;
+            padding-top: var(--dl-space-space-threeunits);
             font-stretch: normal;
             margin-right: 0;
             margin-bottom: 0;
             text-decoration: none;
           }
-          .try2-text31 {
-            color: rgba(37, 76, 80, 1);
+          .try2-text30 {
+            color: rgb(37, 76, 80);
             width: 1047px;
             height: auto;
             font-size: 42px;
@@ -758,7 +790,7 @@ const Try2 = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .try2-text33 {
+          .try2-text31 {
             color: rgb(182, 187, 188);
             width: 261px;
             height: auto;
@@ -800,8 +832,13 @@ const Try2 = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
+          .try2-link {
+            display: contents;
+          }
           .try2-image3 {
+            width: fit-content;
             height: var(--dl-size-size-large);
+            text-decoration: none;
           }
           .try2-links-container {
             display: flex;
@@ -823,17 +860,24 @@ const Try2 = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
+          .try2-link1 {
+            margin-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
+          }
+          .try2-link2 {
+            margin-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
+          }
+          .try2-text32 {
+            display: none;
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .try2-text33 {
+            display: none;
+            margin-bottom: var(--dl-space-space-unit);
+          }
           .try2-text34 {
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .try2-text35 {
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .try2-text36 {
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .try2-text37 {
-            margin-bottom: var(--dl-space-space-unit);
+            display: none;
           }
           .try2-container10 {
             display: flex;
@@ -848,11 +892,11 @@ const Try2 = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .try2-text39 {
+          .try2-text35 {
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .try2-text40 {
+          .try2-text36 {
             margin-bottom: var(--dl-space-space-unit);
           }
           .try2-socials {
@@ -861,7 +905,7 @@ const Try2 = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .try2-text42 {
+          .try2-text38 {
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
@@ -892,10 +936,10 @@ const Try2 = (props) => {
             margin-bottom: var(--dl-space-space-twounits);
             background-color: var(--dl-color-gray-900);
           }
-          .try2-text43 {
+          .try2-text39 {
             align-self: center;
           }
-          .try2-text45 {
+          .try2-text41 {
             text-align: left;
           }
           @media (max-width: 991px) {
@@ -1056,7 +1100,7 @@ const Try2 = (props) => {
               align-items: flex-start;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .try2-text43 {
+            .try2-text39 {
               text-align: center;
             }
           }

@@ -106,6 +106,14 @@ const Testimonial = (props) => {
             margin-top: var(--dl-space-space-twounits);
             margin-bottom: var(--dl-space-space-twounits);
           }
+          .testimonial-root-class-name {
+            margin-top: var(--dl-space-space-twounits);
+            margin-bottom: var(--dl-space-space-twounits);
+          }
+          .testimonial-root-class-name1 {
+            margin-top: var(--dl-space-space-twounits);
+            margin-bottom: var(--dl-space-space-twounits);
+          }
           @media (max-width: 991px) {
             .testimonial-image {
               margin-bottom: 0px;

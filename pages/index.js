@@ -10,8 +10,12 @@ const Try2 = (props) => {
     <>
       <div className="try2-container">
         <Head>
-          <title>Elegant Private Caterpillar</title>
-          <meta property="og:title" content="Elegant Private Caterpillar" />
+          <title>Earth Analytica Labs</title>
+          <meta property="og:title" content="Earth Analytica Labs" />
+          <meta
+            property="og:image"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/46d206fe-d8f4-44cf-ae10-27089d487573/ff7a0634-87d4-49e4-b017-61a71798892d?org_if_sml=1"
+          />
         </Head>
         <div id="home" className="try2-header">
           <header data-role="Header" className="try2-header1">

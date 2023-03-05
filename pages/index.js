@@ -1039,6 +1039,7 @@ const Try2 = (props) => {
               font-size: 18;
             }
             .try2-image3 {
+              width: var(--dl-size-size-large);
               height: auto;
             }
             .try2-container05 {
@@ -1133,7 +1134,7 @@ const Try2 = (props) => {
             }
             .try2-container08 {
               align-items: center;
-              flex-direction: column;
+              flex-direction: row;
             }
             .try2-image3 {
               margin-bottom: 0px;

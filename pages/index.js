@@ -13,6 +13,10 @@ const Try2 = (props) => {
           <title>Earth Analytica Labs</title>
           <meta property="og:title" content="Earth Analytica Labs" />
           <meta
+            property="og:description"
+            content="Earth Analytica Labs is an agritech startup working to optimize and enhance farming and agri-residue management."
+          />
+          <meta
             property="og:image"
             content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/46d206fe-d8f4-44cf-ae10-27089d487573/ff7a0634-87d4-49e4-b017-61a71798892d?org_if_sml=1"
           />
@@ -98,7 +102,7 @@ const Try2 = (props) => {
             </div>
             <img
               alt="WhatsAppImage20230203at21517916"
-              src="/playground_assets/whatsappimage20230203at21517916-7n89-1400w.png"
+              src="/playground_assets/whatsappimage20230203at21517916-7n89-400h.png"
               className="try2-whats-app-image20230203at2151"
             />
           </header>
@@ -222,14 +226,14 @@ const Try2 = (props) => {
           <Testimonial
             Name="Krishn Dev Singh"
             text=" “MBA in HR &amp; Marketing and has 14+ years of diverse experience spanning Human Resource, Project Management, Business Process Management,Corporate Trainings, Executive Assistant  &amp; Startup Operations Management.“"
-            Title="Co-founder &amp; CEO"
+            Title="Co-founder &amp; COO"
             image_src="/playground_assets/kd%20singh-300h.png"
             rootClassName="testimonial-root-class-name2"
           ></Testimonial>
           <Testimonial
             Name="Nishaant Veer Dixit"
             text="“Tech enthusiast and mobile development expert. Previously headed the mobile development department at a Fintech.  B. Tech @ IIT Dhanbad 2021.  “"
-            Title="Co-founder &amp; CTO"
+            Title="Co-founder &amp; CEO"
             image_src="/playground_assets/nishaant-300h.png"
             rootClassName="testimonial-root-class-name"
           ></Testimonial>
@@ -247,7 +251,7 @@ const Try2 = (props) => {
               <a href="#home" className="try2-link">
                 <img
                   alt="logo"
-                  src="/playground_assets/whatsappimage20230203at21517916-7n89-1400w.png"
+                  src="/playground_assets/whatsappimage20230203at21517916-7n89-400h.png"
                   className="try2-image3 try2-image3"
                 />
               </a>
@@ -1002,12 +1006,14 @@ const Try2 = (props) => {
               justify-content: center;
             }
             .try2-whats-app-image20230203at2151 {
-              width: 100%;
-              align-self: center;
+              width: auto;
+              padding-left: 20%;
+              padding-bottom: var(--dl-space-space-fiveunits);
             }
             .try2-text08 {
               align-self: center;
               margin-top: var(--dl-space-space-threeunits);
+              visibility: hidden;
               padding-top: var(--dl-space-space-sixunits);
             }
             .try2-about-us {
@@ -1017,6 +1023,7 @@ const Try2 = (props) => {
             }
             .try2-text15 {
               width: 100%;
+              font-size: 25;
             }
             .try2-text22 {
               margin-left: var(--dl-space-space-unit);
@@ -1024,17 +1031,22 @@ const Try2 = (props) => {
             }
             .try2-rectangle2 {
               width: 100%;
+              height: auto;
             }
             .try2-text27 {
               width: 90%;
               margin: var(--dl-space-space-halfunit);
+              font-size: 18;
             }
             .try2-image3 {
-              margin-bottom: var(--dl-space-space-oneandhalfunits);
+              height: auto;
             }
             .try2-container05 {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
+            }
+            .try2-text31 {
+              align-self: center;
             }
             .try2-footer {
               padding-left: var(--dl-space-space-twounits);
@@ -1056,6 +1068,9 @@ const Try2 = (props) => {
             }
             .try2-container09 {
               margin-right: var(--dl-space-space-fourunits);
+            }
+            .try2-company-container {
+              visibility: hidden;
             }
           }
           @media (max-width: 479px) {
@@ -1105,6 +1120,7 @@ const Try2 = (props) => {
             }
             .try2-text30 {
               width: 100%;
+              font-size: 20;
             }
             .try2-container06 {
               position: relative;

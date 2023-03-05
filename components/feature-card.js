@@ -83,7 +83,14 @@ const FeatureCard = (props) => {
 
           @media (max-width: 767px) {
             .feature-card-container1 {
+              height: auto;
               padding-bottom: var(--dl-space-space-oneandhalfunits);
+            }
+            .feature-card-text {
+              font-size: 20;
+            }
+            .feature-card-description {
+              font-size: 18;
             }
           }
           @media (max-width: 479px) {

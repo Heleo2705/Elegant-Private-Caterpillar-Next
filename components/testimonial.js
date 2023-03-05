@@ -128,6 +128,9 @@ const Testimonial = (props) => {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
+            .testimonial-image {
+              height: var(--dl-size-size-xlarge);
+            }
           }
           @media (max-width: 479px) {
             .testimonial-testimonial {

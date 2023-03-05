@@ -94,7 +94,7 @@ const Try2 = (props) => {
             </div>
             <img
               alt="WhatsAppImage20230203at21517916"
-              src="/playground_assets/whatsappimage20230203at21517916-7n89-400h.png"
+              src="/playground_assets/whatsappimage20230203at21517916-7n89-1400w.png"
               className="try2-whats-app-image20230203at2151"
             />
           </header>
@@ -163,7 +163,7 @@ const Try2 = (props) => {
           </div>
           <img
             alt="image"
-            src="https://images.unsplash.com/photo-1512295767273-ac109ac3acfa?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fG1pbmltYWxpc20lMjB5ZWxsb3d8ZW58MHx8fHwxNjI2MTg0NjU3&amp;ixlib=rb-1.2.1&amp;w=1000"
+            src="https://images.unsplash.com/photo-1512295767273-ac109ac3acfa?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fG1pbmltYWxpc20lMjB5ZWxsb3d8ZW58MHx8fHwxNjI2MTg0NjU3&amp;ixlib=rb-1.2.1&amp;w=300"
             className="try2-image2"
           />
           <div className="try2-rectangle2">
@@ -179,7 +179,7 @@ const Try2 = (props) => {
             </span>
             <img
               alt="image37933"
-              src="/playground_assets/image37933-f4jv-500h.png"
+              src="/playground_assets/image37933-f4jv-1400w.png"
             />
           </div>
         </div>
@@ -216,25 +216,25 @@ const Try2 = (props) => {
         <div className="try2-container07">
           <span className="try2-text31">03 . Our Team</span>
           <Testimonial
-            rootClassName="testimonial-root-class-name2"
             Name="Krishn Dev Singh"
-            Title="Co-founder &amp; CEO"
             text=" “MBA in HR &amp; Marketing and has 14+ years of diverse experience spanning Human Resource, Project Management, Business Process Management,Corporate Trainings, Executive Assistant  &amp; Startup Operations Management.“"
+            Title="Co-founder &amp; CEO"
             image_src="/playground_assets/kd%20singh-300h.png"
+            rootClassName="testimonial-root-class-name2"
           ></Testimonial>
           <Testimonial
-            rootClassName="testimonial-root-class-name"
-            image_src="/playground_assets/nishaant-300h.png"
             Name="Nishaant Veer Dixit"
             text="“Tech enthusiast and mobile development expert. Previously headed the mobile development department at a Fintech.  B. Tech @ IIT Dhanbad 2021.  “"
             Title="Co-founder &amp; CTO"
+            image_src="/playground_assets/nishaant-300h.png"
+            rootClassName="testimonial-root-class-name"
           ></Testimonial>
           <Testimonial
-            rootClassName="testimonial-root-class-name1"
-            image_src="/playground_assets/yashraj-300h.png"
             Name="Yashraj Shah"
             text="“B. Tech @ BITS Pilani, 2+ year experience in product management, consulting &amp; strategy. “"
             Title="Co-founder &amp; CBO"
+            image_src="/playground_assets/yashraj-300h.png"
+            rootClassName="testimonial-root-class-name1"
           ></Testimonial>
         </div>
         <footer className="try2-footer">
@@ -243,7 +243,7 @@ const Try2 = (props) => {
               <a href="#home" className="try2-link">
                 <img
                   alt="logo"
-                  src="/playground_assets/whatsappimage20230203at21517916-7n89-400h.png"
+                  src="/playground_assets/whatsappimage20230203at21517916-7n89-1400w.png"
                   className="try2-image3 try2-image3"
                 />
               </a>
@@ -997,16 +997,36 @@ const Try2 = (props) => {
               align-items: center;
               justify-content: center;
             }
-            .try2-text08 {
+            .try2-whats-app-image20230203at2151 {
+              width: 100%;
               align-self: center;
             }
+            .try2-text08 {
+              align-self: center;
+              margin-top: var(--dl-space-space-threeunits);
+              padding-top: var(--dl-space-space-sixunits);
+            }
             .try2-about-us {
+              width: 100%;
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
+            }
+            .try2-text15 {
+              width: 100%;
             }
             .try2-text22 {
               margin-left: var(--dl-space-space-unit);
               margin-right: var(--dl-space-space-unit);
+            }
+            .try2-rectangle2 {
+              width: 100%;
+            }
+            .try2-text27 {
+              width: 90%;
+              margin: var(--dl-space-space-halfunit);
+            }
+            .try2-image3 {
+              margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
             .try2-container05 {
               padding-left: var(--dl-space-space-twounits);
@@ -1023,9 +1043,6 @@ const Try2 = (props) => {
             }
             .try2-logo {
               align-items: center;
-            }
-            .try2-image3 {
-              margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
             .try2-links-container {
               width: 100%;
@@ -1045,7 +1062,11 @@ const Try2 = (props) => {
               padding-bottom: var(--dl-space-space-twounits);
             }
             .try2-header1 {
+              display: flex;
               padding: var(--dl-space-space-unit);
+            }
+            .try2-burger-menu {
+              display: none;
             }
             .try2-mobile-menu {
               padding: 16px;
@@ -1068,11 +1089,24 @@ const Try2 = (props) => {
               width: var(--dl-size-size-xlarge);
               height: var(--dl-size-size-xlarge);
             }
+            .try2-features {
+              width: 100%;
+              padding: 0;
+            }
             .try2-container05 {
               padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
+            }
+            .try2-text30 {
+              width: 100%;
+            }
+            .try2-container06 {
+              position: relative;
+            }
+            .try2-container07 {
+              width: 100%;
             }
             .try2-footer {
               padding: var(--dl-space-space-unit);

@@ -102,15 +102,15 @@ const Testimonial = (props) => {
             text-align: center;
             font-weight: 600;
           }
-          .testimonial-root-class-name2 {
-            margin-top: var(--dl-space-space-twounits);
-            margin-bottom: var(--dl-space-space-twounits);
-          }
           .testimonial-root-class-name {
             margin-top: var(--dl-space-space-twounits);
             margin-bottom: var(--dl-space-space-twounits);
           }
           .testimonial-root-class-name1 {
+            margin-top: var(--dl-space-space-twounits);
+            margin-bottom: var(--dl-space-space-twounits);
+          }
+          .testimonial-root-class-name2 {
             margin-top: var(--dl-space-space-twounits);
             margin-bottom: var(--dl-space-space-twounits);
           }

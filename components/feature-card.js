@@ -80,6 +80,27 @@ const FeatureCard = (props) => {
             font-stretch: normal;
             text-decoration: none;
           }
+
+          @media (max-width: 767px) {
+            .feature-card-container1 {
+              padding-bottom: var(--dl-space-space-oneandhalfunits);
+            }
+          }
+          @media (max-width: 479px) {
+            .feature-card-root-class-name {
+              top: 96px;
+              left: 0px;
+              position: static;
+              margin-bottom: var(--dl-space-space-sixunits);
+            }
+            .feature-card-root-class-name1 {
+              margin-top: var(--dl-space-space-sixunits);
+            }
+            .feature-card-root-class-name2 {
+              margin-top: var(--dl-space-space-sixunits);
+              margin-bottom: var(--dl-space-space-sixunits);
+            }
+          }
         `}
       </style>
     </>

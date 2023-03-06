@@ -950,6 +950,33 @@ const Try2 = (props) => {
           .try2-text41 {
             text-align: left;
           }
+          @media (max-width: 1400px) {
+            .try2-header {
+              width: 90%;
+              padding-left: var(--dl-space-space-threeunits);
+              padding-right: var(--dl-space-space-threeunits);
+            }
+            .try2-about-us {
+              width: 90%;
+              align-items: center;
+              justify-content: center;
+            }
+            .try2-container03 {
+              margin-right: var(--dl-space-space-twounits);
+            }
+            .try2-features {
+              width: 90%;
+            }
+            .try2-container07 {
+              width: 90%;
+            }
+            .try2-text31 {
+              align-self: center;
+            }
+            .try2-footer {
+              width: 90%;
+            }
+          }
           @media (max-width: 991px) {
             .try2-titlebar {
               display: none;
